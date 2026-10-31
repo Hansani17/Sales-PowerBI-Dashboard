@@ -8,3 +8,8 @@ __pycache__/
 node_modules/
 .venv/
 venv/
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+.DS_Store
+Thumbs.db
+*.log
