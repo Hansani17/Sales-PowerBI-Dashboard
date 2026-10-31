@@ -4,7 +4,7 @@ The original README lays out 6 phases. Here's the same project compressed into
 a path you can realistically finish in a few focused sessions, using the files
 already generated for you.
 
-## What's already done for you
+
 - `database/schema.sql` — full PostgreSQL schema (6 tables, indexed, FK'd)
 - `database/generate_data.py` — generates ~7,500 realistic sales transactions
   across 3 years, 5 categories, 27 products, 5 regions, 120 customers, with
@@ -16,7 +16,7 @@ already generated for you.
   outliers, regional performance, etc.)
 - `documentation/dax_measures.md` — copy-paste DAX measure library
 
-## Step 1 — Database (15–30 min)
+##  Database 
 1. Install PostgreSQL locally (or use a free instance on Neon/Supabase if you
    don't want to install anything — both work fine with Power BI).
 2. `psql -f database/schema.sql`
@@ -30,7 +30,7 @@ you can load the CSVs in `database/output_csv/` directly via Power BI's
 Analysis" phase for your portfolio story, so only do this if you're truly
 optimizing for speed over completeness.
 
-## Step 2 — Run the SQL analysis (15 min)
+## Run the SQL analysis (15 min)
 Run `analysis_queries.sql` in your SQL client. Screenshot 3–4 of the more
 interesting results (e.g. YoY growth, top profit products) for your
 `insights/business_insights.md` — this becomes evidence of the "SQL Analysis"
